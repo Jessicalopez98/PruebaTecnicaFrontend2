@@ -1,0 +1,35 @@
+:root{ 
+--line:#a9a9a9;
+--ink:#222;
+--bg:#f7f7f7;
+ } */
+ 
+.browser-title{
+border-bottom: 2px solid var(--line);
+padding: 6px 10px;
+display:flex; align-items:center; justify-content:space-between;
+font-weight:600;
+}
+
+.win-btn{ 
+width:16px; 
+height:16px; 
+border:2px 
+solid var(--ink); 
+margin-left:6px; 
+display:inline-block; 
+}
+
+.toolbar{
+padding: 10px;
+border-bottom: 2px;
+}
+
+.content{
+padding: 30px;
+}
+
+.nav-actions{
+display:flex; 
+justify-content:space-between;
+}
